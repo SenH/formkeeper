@@ -956,7 +956,7 @@ module FormKeeper
           elem.innerHTML = Rack::Utils::escape_html(param)
         end
       end
-      doc.to_html
+      doc.to_original_html
     end
 
     private
