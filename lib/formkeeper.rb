@@ -447,6 +447,9 @@ module FormKeeper
     def [](name)
       @valid_params[name.to_sym]
     end
+    def valid_params
+      @valid_params
+    end
     def valid_fields
       @valid_params.keys
     end
